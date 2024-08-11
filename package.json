@@ -1,0 +1,18 @@
+{
+  "name": "pro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./input/tailwind.css -o ./output/style.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.9"
+  },
+  "dependencies": {
+    "tailwind": "^4.0.0"
+  }
+}

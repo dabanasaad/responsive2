@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.blog-card {
+  @apply border border-gray-100 rounded-2xl overflow-hidden transition duration-200 hover:shadow-lg hover:border-transparent;
+}
